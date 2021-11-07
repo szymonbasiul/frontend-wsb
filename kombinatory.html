@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- zewnętrzne style css -->
+    <style>
+        p {
+            color: blue;
+        }
+
+        h1 ~ p {
+            color: chartreuse;
+        }
+
+        main > p {
+            color: crimson;
+        }
+
+        .big {
+            font-size: 40px;
+            color: rgb(207, 16, 80);
+        }
+
+        .orange {
+            color: orangered;
+        }
+
+        #main {
+            color: purple;
+        }
+    </style> 
+</head>
+
+<body>
+    <p>Hello world 0</p>
+    <main>
+        <section>
+            <section>
+                <div>
+                    <h1 class="orange big" id="main">Witaj na stronie</h1>
+                    <p class="orange">Hello world 1</p>
+                    <p>Hello world 2</p>
+                    <p>Hello world 3</p>
+                    <p>Hello world 4</p>
+                    <p>Hello world 5</p>
+                </div>
+            </section>
+        </section>
+        <p>Hello world 6</p>
+    </main>
+
+</body>
+</html>
